@@ -29,16 +29,16 @@ fun main() {
     val conteudo3 = ConteudoEducacional("Desenvolvendo um app Mobile no Android com Kotlin", 150, Nivel.DIFICIL)
 
     val formacao1 = Formacao(
-        "Formação em POO com Kotlin",
-        "Aprenda os conceitos fundamentais de POO com Kotlin",
+        "Formação em POO com kotlin",
+        "Conceitos fundamentais de POO com kotlin",
         listOf(conteudo1, conteudo2),
         usuario1,
         listOf(Nivel.BASICO, Nivel.INTERMEDIARIO)
     )
 
     val formacao2 = Formacao(
-        "Formação em Desenvolvimento Mobile Android com Kotlin",
-        "Aprenda a desenvolver apps utilizando a linguagem Kotlin",
+        "Formação em desenvolvimento mobile android com kotlin",
+        "Aprenda a desenvolver apps utilizando a linguagem kotlin",
         listOf(conteudo2, conteudo3),
         usuario2,
         listOf(Nivel.INTERMEDIARIO, Nivel.DIFICIL)
