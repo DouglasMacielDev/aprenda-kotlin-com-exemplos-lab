@@ -20,9 +20,9 @@ data class Formacao(
 }
 
 fun main() {
-    val usuario1 = Usuario("Gabi", "gabi@email.com")
-    val usuario2 = Usuario("Jose", "jose@email.com")
-    val usuario3 = Usuario("Rafa", "rafa@email.com")
+    val usuario1 = Usuario("Douglas", "douglas@email.com")
+    val usuario2 = Usuario("Isadora", "isadora@email.com")
+    val usuario3 = Usuario("Deilza", "deilza@email.com")
 
     val conteudo1 = ConteudoEducacional("Orientação a Objetos com Kotlin", 50, Nivel.BASICO)
     val conteudo2 = ConteudoEducacional("Estruturas de Dados com Kotlin", 90, Nivel.INTERMEDIARIO)
